@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.jsx";
 import Button from "../components/UI/Button.jsx";
+import { Link } from "react-router";
 
 const FeatureCard = ({ title, description, badgeColor, shape }) => {
   return (
